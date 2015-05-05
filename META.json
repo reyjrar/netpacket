@@ -63,6 +63,10 @@
          "file" : "lib/NetPacket/ICMP.pm",
          "version" : "v1.6.0"
       },
+      "NetPacket::ICMPv6" : {
+         "file" : "lib/NetPacket/ICMPv6.pm",
+         "version" : "v0.02"
+      },
       "NetPacket::IGMP" : {
          "file" : "lib/NetPacket/IGMP.pm",
          "version" : "v1.6.0"
@@ -71,9 +75,17 @@
          "file" : "lib/NetPacket/IP.pm",
          "version" : "v1.6.0"
       },
+      "NetPacket::IPv6" : {
+         "file" : "lib/NetPacket/IPv6.pm",
+         "version" : "v0.02"
+      },
       "NetPacket::IPX" : {
          "file" : "lib/NetPacket/IPX.pm",
          "version" : "v1.6.0"
+      },
+      "NetPacket::PFLog" : {
+         "file" : "lib/NetPacket/PFLog.pm",
+         "version" : "v0.03"
       },
       "NetPacket::TCP" : {
          "file" : "lib/NetPacket/TCP.pm",
@@ -107,6 +119,7 @@
       "Ben Magistro <koncept1@gmail.com>",
       "Daniel Collins <solemnwarning@solemnwarning.net>",
       "Dinar Valeev <dvaleev@suse.de>",
+      "Joel Knight <knight.joel@gmail.com>",
       "Lubomir Rintel <lkundrak@v3.sk>",
       "Neil Bowers <neil@bowers.com>",
       "Robin Lee <cheeselee@fedoraproject.org>",
